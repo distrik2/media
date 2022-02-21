@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Roboto, sans-serif;
+}
+a {
+  text-decoration: none;
+}
+.name_ship {
+  margin: 50px 50px 0px 50px;
+}
+.main_h1 {
+  font-size: 24px;
+  line-height: 29px;
+  font-weight: 400;
+}
+.stars p {
+  font-size: 12px;
+}
+.stars {
+  padding-top: 8px;
+}
+.main_block {
+  margin: 50px;
+  display: flex;
+}
+.photo_block img {
+  max-height: 498px;
+  height: auto;
+}
+.right_block {
+  display: flex;
+  justify-content: flex-end;
+}
+.price {
+  font-size: 26px;
+  font-weight: 700;
+}
+.btns_block{
+    display: flex;
+}
+
+.btn1 button {
+  width: 200px;
+  height: 50px;
+  background-color: #e61771;
+  border: 2px solid #e61771;
+  border: none;
+  color: white;
+  padding: 8px 0px;
+}
+.btn2 button {
+  width: 200px;
+  height: 50px;
+  background-color: white;
+  border: 2px solid #e61771;
+  color: black;
+  padding: 8px 0px;
+}
